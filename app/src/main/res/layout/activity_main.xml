@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/startbackground">
 
 
     <TextView
@@ -11,10 +12,13 @@
         android:layout_width="392dp"
         android:layout_height="84dp"
         android:layout_alignParentEnd="true"
+        android:background="#00000000"
+        android:backgroundTint="#00FFFFFF"
         android:gravity="center"
         android:text="REPETITIVE ROTATING OBEJECTS"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -26,10 +30,10 @@
         android:id="@+id/button"
         android:layout_width="142dp"
         android:layout_height="55dp"
+        android:onClick="switchScreens"
         android:text="PLAY"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:onClick="switchScreens"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
